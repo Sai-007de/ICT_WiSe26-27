@@ -1,0 +1,8 @@
+root:x:0:0:root:/root:/bin/bash
+sync:x:4:65534:sync:/bin:/bin/sync
+dhcpcd:x:997:997:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+sainath-desai:x:1000:1000:Sainath:/home/sainath-desai:/bin/bash
+whoopsie:x:104:109::/nonexistent:/bin/false
+lightdm:x:109:115:Light Display Manager:/var/lib/lightdm:/bin/false
+hplip:x:111:7:HPLIP system user:/run/hplip:/bin/false
+gdm:x:976:976:Gnome Display Manager:/var/lib/gdm3:/bin/false

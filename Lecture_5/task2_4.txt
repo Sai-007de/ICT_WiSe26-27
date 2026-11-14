@@ -1,0 +1,106 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.5  25924 17040 ?        Ss   18:32   0:09 /usr/lib/systemd/systemd --system --deserialize=232
+root           2  0.0  0.0      0     0 ?        S    18:32   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    18:32   0:00 [pool_workqueue_release]
+root          15  0.0  0.0      0     0 ?        I    18:32   0:01 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    18:32   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    18:32   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    18:32   0:00 [kprobe-optimizer]
+root          20  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/0]
+root          21  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/1]
+root          24  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/1]
+root          28  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/2]
+root          29  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/2]
+root          30  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/2]
+root          37  0.0  0.0      0     0 ?        S    18:32   0:00 [kdevtmpfs]
+root          39  0.0  0.0      0     0 ?        I    18:32   0:00 [rcu_tasks_kthread]
+root          40  0.0  0.0      0     0 ?        I    18:32   0:00 [rcu_tasks_rude_kthread]
+root          41  0.0  0.0      0     0 ?        S    18:32   0:00 [kauditd]
+root          42  0.0  0.0      0     0 ?        S    18:32   0:00 [khungtaskd]
+root          43  0.0  0.0      0     0 ?        S    18:32   0:00 [oom_reaper]
+root          47  0.0  0.0      0     0 ?        S    18:32   0:00 [kcompactd0]
+root          48  0.0  0.0      0     0 ?        SN   18:32   0:00 [ksmd]
+root          49  0.0  0.0      0     0 ?        SN   18:32   0:00 [khugepaged]
+root          61  0.0  0.0      0     0 ?        S    18:32   0:00 [watchdogd]
+root          65  0.0  0.0      0     0 ?        S    18:32   0:00 [kswapd0]
+root          66  0.0  0.0      0     0 ?        S    18:32   0:00 [ecryptfs-kthread]
+root          69  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_0]
+root          71  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_1]
+root         345  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_2]
+root         460  0.0  0.0      0     0 ?        S    18:32   0:01 [jbd2/dm-0-8]
+root         800  0.0  0.0      0     0 ?        S    18:32   0:00 [jbd2/sda2-8]
+avahi       1190  0.0  0.1   6696  4840 ?        Ss   18:32   0:00 avahi-daemon: running [ict.local]
+root        1191  0.0  0.0   2888  2008 ?        Ss   18:32   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+message+    1192  0.1  0.2  10368  7244 ?        Ss   18:32   0:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1203  0.0  0.9  46844 30380 ?        Ss   18:32   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1208  0.1  1.4 1960580 44372 ?       Ssl  18:32   0:05 /usr/lib/snapd/snapd
+root        1217  0.0  0.3  18544  9688 ?        Ss   18:32   0:00 /usr/lib/systemd/systemd-logind
+avahi       1246  0.0  0.0   6508  1620 ?        S    18:32   0:00 avahi-daemon: chroot helper
+syslog      1284  0.0  0.2 220548  6312 ?        Ssl  18:32   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1311  0.0  0.6 335740 20496 ?        Ssl  18:32   0:00 /usr/sbin/NetworkManager --no-daemon
+root        1316  0.0  0.2  17972  6760 ?        Ss   18:32   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+_chrony     1322  0.0  0.3  24004 11408 ?        S    18:32   0:00 /usr/sbin/chronyd -n -F 1
+_chrony     1361  0.0  0.1  12120  3392 ?        S    18:32   0:00 /usr/sbin/chronyd -n -F 1
+root        1403  0.0  0.0 221556  2972 ?        Sl   18:32   0:01 /usr/bin/VBoxDRMClient
+root        1409  0.0  0.1 292100  3740 ?        Sl   18:32   0:00 /usr/sbin/VBoxService
+root        1469  0.0  1.0 126116 32952 ?        Ssl  18:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1529  0.0  0.2 380948  8268 ?        Ssl  18:33   0:00 /usr/sbin/lightdm
+root        1552  0.0  0.1   8832  5620 ?        Ss   18:33   0:00 login -- sainath-desai
+root        1559  0.1  3.2 808500 101024 tty7    Ssl+ 18:33   0:02 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root        1633  0.0  0.2 169744  9128 ?        Sl   18:33   0:00 lightdm --session-child 17 20
+lightdm     1676  0.0  0.4  22688 13588 ?        Ss   18:33   0:01 /usr/lib/systemd/systemd --user --deserialize=30
+lightdm     1682  0.0  0.1  22932  4100 ?        S    18:33   0:00 (sd-pam)
+lightdm     1708  0.0  0.1   8788  5404 ?        Ss   18:33   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lightdm     1709  0.0  0.3 100052 11008 ?        Ssl  18:33   0:00 /usr/bin/pipewire
+lightdm     1710  0.0  0.0   2888  2004 ?        Ss   18:33   0:00 /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/lightdm-gtk-greeter
+lightdm     1711  0.1  3.4 1370556 107188 ?      Sl   18:33   0:02 /usr/sbin/lightdm-gtk-greeter
+lightdm     1712  0.0  0.8 493500 25228 ?        Ssl  18:33   0:01 /usr/bin/wireplumber
+lightdm     1714  0.0  0.1  84812  5828 ?        Ssl  18:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+lightdm     1715  0.0  0.3 105204 11052 ?        Ssl  18:33   0:00 /usr/bin/pipewire-pulse
+rtkit       1716  0.0  0.1  87408  3632 ?        SNsl 18:33   0:00 /usr/libexec/rtkit-daemon
+lightdm     1736  0.0  0.2 381028  8148 ?        Ssl  18:33   0:00 /usr/libexec/at-spi-bus-launcher
+lightdm     1745  0.0  0.1   8552  5084 ?        S    18:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/109/at-spi/bus
+lightdm     1748  0.0  0.2 312952  8988 ?        Ssl  18:33   0:00 /usr/libexec/gvfsd
+lightdm     1807  0.0  0.2 168852  7308 ?        Ssl  18:33   0:00 /usr/libexec/gvfsd-metadata
+root        1846  0.0  0.2  14912  7308 ?        S    18:33   0:00 lightdm --session-child 13 20
+lightdm     1849  0.0  0.2 168688  7832 ?        Sl   18:33   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+root        1897  0.0  0.0   8488  2908 tty3     Ss+  18:34   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+root        1903  0.0  0.0   8488  2876 tty4     Ss+  18:36   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+root        1904  0.0  0.0   8488  2868 tty5     Ss+  18:36   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+sainath+    2022  0.0  0.4  22720 13640 ?        Ss   18:36   0:00 /usr/lib/systemd/systemd --user --deserialize=30
+sainath+    2028  0.0  0.1  22936  4116 ?        S    18:36   0:00 (sd-pam)
+sainath+    2049  0.0  0.1   8588  5204 ?        Ss   18:36   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sainath+    2050  0.0  0.3 101572 11104 ?        Ssl  18:36   0:00 /usr/bin/pipewire
+sainath+    2051  0.0  0.1   8856  5884 tty1     Ss+  18:36   0:00 -bash
+sainath+    2055  0.0  0.1   7560  4080 ?        Ss   18:36   0:00 /usr/bin/mpris-proxy
+sainath+    2056  0.0  1.2 634996 38824 ?        Ssl  18:36   0:00 /usr/bin/wireplumber
+sainath+    2059  0.0  0.1  84812  5840 ?        Ssl  18:36   0:00 /usr/bin/pipewire -c filter-chain.conf
+sainath+    2060  0.0  0.3 105204 11092 ?        Ssl  18:36   0:00 /usr/bin/pipewire-pulse
+root        2146  0.0  0.3  18468 12200 ?        Ss   18:37   0:00 sshd-session: sainath-desai [priv]
+sainath+    2192  0.2  0.2  18628  7720 ?        S    18:37   0:06 sshd-session: sainath-desai@pts/0
+sainath+    2193  0.0  0.1   8844  5888 pts/0    Ss   18:37   0:00 -bash
+root        4124  0.0  0.1   7060  3416 ?        Ss   19:12   0:00 /usr/sbin/cron -f -P
+root        4127  0.0  0.2 308960  8068 ?        Ssl  19:12   0:00 /usr/libexec/accounts-daemon
+root        4136  0.0  0.3 214212  9768 ?        SLsl 19:12   0:00 /usr/sbin/multipathd -d -s
+root        4156  0.0  0.2 307812  7728 ?        Ssl  19:12   0:00 /usr/libexec/switcheroo-control
+root        4162  0.0  0.2 309272  8020 ?        Ssl  19:12   0:00 /usr/libexec/power-profiles-daemon
+root        4173  0.0  0.2  10744  7744 ?        Ss   19:12   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        4176  0.0  0.4  34192 15448 ?        S<s  19:12   0:00 /usr/lib/systemd/systemd-journald
+systemd+    4179  0.0  0.4  22632 14756 ?        Ss   19:12   0:00 /usr/lib/systemd/systemd-resolved
+root        4182  0.0  0.4  29476 13376 ?        Ss   19:12   0:00 /usr/sbin/cupsd -l
+polkitd     4189  0.1  0.3 382412 10804 ?        Ssl  19:12   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+lp          4190  0.0  0.2  15436  7288 ?        S    19:12   0:00 /usr/lib/cups/notifier/dbus dbus://
+cups-br+    4191  0.0  0.7 207556 22828 ?        Ssl  19:12   0:00 /usr/sbin/cups-browsed
+root        4197  0.1  0.4 543468 15476 ?        Ssl  19:12   0:00 /usr/libexec/udisks2/udisksd
+root        4207  0.1  0.4  40932 14740 ?        Ss   19:12   0:00 /usr/lib/systemd/systemd-udevd
+root        4239  0.1  0.4 391608 14140 ?        Ssl  19:12   0:00 /usr/sbin/ModemManager
+root        4250  0.0  0.0      0     0 ?        S    19:12   0:00 [psimon]
+systemd+    4251  0.1  0.3  21460 12356 ?        Ss   19:12   0:00 /usr/lib/systemd/systemd-networkd
+root        5270  0.0  0.0      0     0 ?        S    19:12   0:00 [psimon]
+root        5298  1.4  1.5 502340 48336 ?        Ssl  19:12   0:02 /usr/libexec/fwupd/fwupd
+root        5318  0.1  0.3 318688 11480 ?        Ssl  19:12   0:00 /usr/libexec/upowerd
+root        5382  0.0  0.7 342768 22584 ?        Ssl  19:12   0:00 /usr/libexec/packagekitd
+sainath+   11006  200  0.1   9764  4712 pts/0    R+   19:15   0:00 ps aux

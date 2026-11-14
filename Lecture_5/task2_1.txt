@@ -1,0 +1,13 @@
+sainath+    2022  0.0  0.4  22720 13640 ?        Ss   18:36   0:00 /usr/lib/systemd/systemd --user --deserialize=30
+sainath+    2028  0.0  0.1  22936  4116 ?        S    18:36   0:00 (sd-pam)
+sainath+    2049  0.0  0.1   8588  5204 ?        Ss   18:36   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sainath+    2050  0.0  0.3 101572 11104 ?        Ssl  18:36   0:00 /usr/bin/pipewire
+sainath+    2051  0.0  0.1   8856  5884 tty1     Ss+  18:36   0:00 -bash
+sainath+    2055  0.0  0.1   7560  4080 ?        Ss   18:36   0:00 /usr/bin/mpris-proxy
+sainath+    2056  0.0  1.2 634996 38824 ?        Ssl  18:36   0:00 /usr/bin/wireplumber
+sainath+    2059  0.0  0.1  84812  5840 ?        Ssl  18:36   0:00 /usr/bin/pipewire -c filter-chain.conf
+sainath+    2060  0.0  0.3 105204 11092 ?        Ssl  18:36   0:00 /usr/bin/pipewire-pulse
+sainath+    2192  0.2  0.2  18628  7720 ?        S    18:37   0:06 sshd-session: sainath-desai@pts/0
+sainath+    2193  0.0  0.1   8844  5888 pts/0    Ss   18:37   0:00 -bash
+sainath+   10970  100  0.1   9764  4708 pts/0    R+   19:15   0:00 ps aux
+sainath+   10971  0.0  0.0   6716  2700 pts/0    S+   19:15   0:00 grep --color=auto sainath+

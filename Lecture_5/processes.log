@@ -1,0 +1,172 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ROOT           1  0.5  0.5  25792 16864 ?        Ss   18:32   0:06 /usr/lib/systemd/systemd --switched-root --system --deserialize=56
+ROOT           2  0.0  0.0      0     0 ?        S    18:32   0:00 [kthreadd]
+ROOT           3  0.0  0.0      0     0 ?        S    18:32   0:00 [pool_workqueue_release]
+ROOT           4  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-rcu_gp]
+ROOT           5  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-sync_wq]
+ROOT           6  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kvfree_rcu_reclaim]
+ROOT           7  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-slub_flushwq]
+ROOT           8  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-netns]
+ROOT          10  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/0:0H-kblockd]
+ROOT          12  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u12:0-ipv6_addrconf]
+ROOT          13  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-mm_percpu_wq]
+ROOT          14  0.0  0.0      0     0 ?        S    18:32   0:00 [ksoftirqd/0]
+ROOT          15  0.0  0.0      0     0 ?        I    18:32   0:00 [rcu_preempt]
+ROOT          16  0.0  0.0      0     0 ?        S    18:32   0:00 [rcu_exp_par_gp_kthread_worker/0]
+ROOT          17  0.0  0.0      0     0 ?        S    18:32   0:00 [rcu_exp_gp_kthread_worker]
+ROOT          18  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/0]
+ROOT          19  0.0  0.0      0     0 ?        S    18:32   0:00 [kprobe-optimizer]
+ROOT          20  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/0]
+ROOT          21  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/0]
+ROOT          22  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/1]
+ROOT          23  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/1]
+ROOT          24  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/1]
+ROOT          25  0.0  0.0      0     0 ?        S    18:32   0:00 [ksoftirqd/1]
+ROOT          26  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/1:0-mm_percpu_wq]
+ROOT          27  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/1:0H-kblockd]
+ROOT          28  0.0  0.0      0     0 ?        S    18:32   0:00 [cpuhp/2]
+ROOT          29  0.0  0.0      0     0 ?        S    18:32   0:00 [idle_inject/2]
+ROOT          30  0.0  0.0      0     0 ?        S    18:32   0:00 [migration/2]
+ROOT          31  0.0  0.0      0     0 ?        S    18:32   0:00 [ksoftirqd/2]
+ROOT          37  0.0  0.0      0     0 ?        S    18:32   0:00 [kdevtmpfs]
+ROOT          38  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-inet_frag_wq]
+ROOT          39  0.0  0.0      0     0 ?        I    18:32   0:00 [rcu_tasks_kthread]
+ROOT          40  0.0  0.0      0     0 ?        I    18:32   0:00 [rcu_tasks_rude_kthread]
+ROOT          41  0.0  0.0      0     0 ?        S    18:32   0:00 [kauditd]
+ROOT          42  0.0  0.0      0     0 ?        S    18:32   0:00 [khungtaskd]
+ROOT          43  0.0  0.0      0     0 ?        S    18:32   0:00 [oom_reaper]
+ROOT          45  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-writeback]
+ROOT          47  0.0  0.0      0     0 ?        S    18:32   0:00 [kcompactd0]
+ROOT          48  0.0  0.0      0     0 ?        SN   18:32   0:00 [ksmd]
+ROOT          49  0.0  0.0      0     0 ?        SN   18:32   0:00 [khugepaged]
+ROOT          50  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kblockd]
+ROOT          51  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-blkcg_punt_bio]
+ROOT          52  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kintegrityd]
+ROOT          53  0.0  0.0      0     0 ?        S    18:32   0:00 [irq/9-acpi]
+ROOT          54  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-tpm_dev_wq]
+ROOT          55  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-ata_sff]
+ROOT          56  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-md_bitmap]
+ROOT          57  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-md_llbitmap_io]
+ROOT          58  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-md_llbitmap_unplug]
+ROOT          59  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-edac-poller]
+ROOT          60  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-devfreq_wq]
+ROOT          61  0.0  0.0      0     0 ?        S    18:32   0:00 [watchdogd]
+ROOT          63  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-quota_events_unbound]
+ROOT          64  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u14:1-ext4-rsv-conversion]
+ROOT          65  0.0  0.0      0     0 ?        S    18:32   0:00 [kswapd0]
+ROOT          66  0.0  0.0      0     0 ?        S    18:32   0:00 [ecryptfs-kthread]
+ROOT          67  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kthrotld]
+ROOT          68  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-acpi_thermal_pm]
+ROOT          69  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_0]
+ROOT          70  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-scsi_tmf_0]
+ROOT          71  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_1]
+ROOT          72  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-scsi_tmf_1]
+ROOT          76  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u14:5-flush-252:0]
+ROOT          77  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/2:1-cgroup_free]
+ROOT          78  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-mld]
+ROOT          79  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-ipv6_addrconf]
+ROOT          80  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u12:1-ipv6_addrconf]
+ROOT          81  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kstrp]
+ROOT          84  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u15:1-events_power_efficient]
+ROOT          85  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/u16:0]
+ROOT          86  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/u17:0-ttm]
+ROOT          87  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/u18:0]
+ROOT          88  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/u19:0]
+ROOT          99  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-charger_manager]
+ROOT         137  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u15:2-events_unbound]
+ROOT         154  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u15:3-events_unbound]
+ROOT         345  0.0  0.0      0     0 ?        S    18:32   0:00 [scsi_eh_2]
+ROOT         346  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-scsi_tmf_2]
+ROOT         394  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/1:1H-kblockd]
+ROOT         422  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kdmflush/252:0]
+ROOT         460  0.0  0.0      0     0 ?        S    18:32   0:00 [jbd2/dm-0-8]
+ROOT         461  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-ext4-rsv-conversion]
+ROOT         527  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/0:1H-kblockd]
+ROOT         528  0.8  0.0      0     0 ?        I    18:32   0:10 [kworker/0:4-events]
+ROOT         560  0.0  0.0      0     0 ?        S    18:32   0:00 [psimon]
+ROOT         566  0.0  0.5  50532 17636 ?        S<s  18:32   0:00 /usr/lib/systemd/systemd-journald
+ROOT         568  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/2:1H-kblockd]
+ROOT         577  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kmpathd]
+ROOT         578  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-kmpath_handlerd]
+ROOT         601  0.0  0.3 279492  9644 ?        SLsl 18:32   0:00 /usr/sbin/multipathd -d -s
+systemd+     619  0.0  0.4  22752 14768 ?        Ss   18:32   0:00 /usr/lib/systemd/systemd-resolved
+ROOT         622  0.0  0.4  41324 15112 ?        Ss   18:32   0:01 /usr/lib/systemd/systemd-udevd
+ROOT         629  0.0  0.0      0     0 ?        S    18:32   0:00 [psimon]
+ROOT         770  0.0  0.0      0     0 ?        S    18:32   0:00 [irq/18-vmwgfx]
+ROOT         771  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-ttm]
+ROOT         786  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u13:4-events_power_efficient]
+ROOT         787  0.0  0.0      0     0 ?        I    18:32   0:00 [kworker/u13:5-events_unbound]
+ROOT         800  0.0  0.0      0     0 ?        S    18:32   0:00 [jbd2/sda2-8]
+ROOT         801  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-ext4-rsv-conversion]
+systemd+    1028  0.0  0.3  21432 12380 ?        Ss   18:32   0:00 /usr/lib/systemd/systemd-networkd
+ROOT        1180  0.0  0.0      0     0 ?        I<   18:32   0:00 [kworker/R-cfg80211]
+ROOT        1187  0.0  0.2 308960  8088 ?        Ssl  18:32   0:00 /usr/libexec/accounts-daemon
+avahi       1190  0.0  0.1   6696  4828 ?        Ss   18:32   0:00 avahi-daemon: running [ict.local]
+ROOT        1191  0.0  0.0   2888  2008 ?        Ss   18:32   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+message+    1192  0.1  0.2  10232  7008 ?        Ss   18:32   0:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ROOT        1203  0.0  0.9  46844 30380 ?        Ss   18:32   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+polkitd     1204  0.0  0.3 382840 11312 ?        Ssl  18:32   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+ROOT        1208  0.3  1.4 1960580 44320 ?       Ssl  18:32   0:03 /usr/lib/snapd/snapd
+ROOT        1212  0.0  0.2 307912  7904 ?        Ssl  18:32   0:00 /usr/libexec/switcheroo-control
+ROOT        1217  0.0  0.3  18544  9576 ?        Ss   18:32   0:00 /usr/lib/systemd/systemd-logind
+ROOT        1221  0.0  0.4 543456 15180 ?        Ssl  18:32   0:00 /usr/libexec/udisks2/udisksd
+avahi       1246  0.0  0.0   6508  1620 ?        S    18:32   0:00 avahi-daemon: chroot helper
+syslog      1284  0.0  0.2 220548  6308 ?        Ssl  18:32   0:00 /usr/sbin/rsyslogd -n -iNONE
+ROOT        1311  0.0  0.6 335740 20472 ?        Ssl  18:32   0:00 /usr/sbin/NetworkManager --no-daemon
+ROOT        1316  0.0  0.2  17972  6760 ?        Ss   18:32   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+_chrony     1322  0.0  0.3  24004 11408 ?        S    18:32   0:00 /usr/sbin/chronyd -n -F 1
+_chrony     1361  0.0  0.1  12120  3392 ?        S    18:32   0:00 /usr/sbin/chronyd -n -F 1
+ROOT        1378  0.0  0.4 391604 14296 ?        Ssl  18:32   0:00 /usr/sbin/ModemManager
+ROOT        1403  0.0  0.0 221556  2972 ?        Sl   18:32   0:00 /usr/bin/VBoxDRMClient
+ROOT        1409  0.0  0.1 292100  3740 ?        Sl   18:32   0:00 /usr/sbin/VBoxService
+ROOT        1469  0.0  1.0 126116 32952 ?        Ssl  18:33   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ROOT        1494  0.0  0.2  10744  7832 ?        Ss   18:33   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+ROOT        1518  0.0  0.1   7060  3392 ?        Ss   18:33   0:00 /usr/sbin/cron -f -P
+ROOT        1529  0.0  0.2 380948  8268 ?        Ssl  18:33   0:00 /usr/sbin/lightdm
+ROOT        1552  0.0  0.1   8832  5620 ?        Ss   18:33   0:00 login -- sainath-desai
+ROOT        1559  0.2  3.2 807284 99296 tty7     Ssl+ 18:33   0:02 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+ROOT        1608  0.0  0.0      0     0 ?        I<   18:33   0:00 [kworker/2:2H]
+ROOT        1611  0.0  0.2 309272  7760 ?        Ssl  18:33   0:00 /usr/libexec/power-profiles-daemon
+ROOT        1631  0.0  0.0      0     0 ?        I<   18:33   0:00 [kworker/u17:1-ttm]
+ROOT        1633  0.0  0.2 169744  9128 ?        Sl   18:33   0:00 lightdm --session-child 17 20
+lightdm     1676  0.0  0.4  22968 13968 ?        Ss   18:33   0:00 /usr/lib/systemd/systemd --user
+lightdm     1682  0.0  0.1  22932  4100 ?        S    18:33   0:00 (sd-pam)
+lightdm     1708  0.0  0.1   8588  5324 ?        Ss   18:33   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+lightdm     1709  0.0  0.3 100052 11008 ?        Ssl  18:33   0:00 /usr/bin/pipewire
+lightdm     1710  0.0  0.0   2888  2004 ?        Ss   18:33   0:00 /bin/sh /usr/lib/lightdm/lightdm-greeter-session /usr/sbin/lightdm-gtk-greeter
+lightdm     1711  0.1  3.4 1370404 106356 ?      Sl   18:33   0:02 /usr/sbin/lightdm-gtk-greeter
+lightdm     1712  0.1  0.8 493500 25228 ?        Ssl  18:33   0:01 /usr/bin/wireplumber
+lightdm     1714  0.0  0.1  84812  5828 ?        Ssl  18:33   0:00 /usr/bin/pipewire -c filter-chain.conf
+lightdm     1715  0.0  0.3 105204 11052 ?        Ssl  18:33   0:00 /usr/bin/pipewire-pulse
+rtkit       1716  0.0  0.1  87408  3632 ?        SNsl 18:33   0:00 /usr/libexec/rtkit-daemon
+lightdm     1736  0.0  0.2 381028  8148 ?        Ssl  18:33   0:00 /usr/libexec/at-spi-bus-launcher
+lightdm     1745  0.0  0.1   8552  5084 ?        S    18:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/109/at-spi/bus
+lightdm     1748  0.0  0.2 312952  8988 ?        Ssl  18:33   0:00 /usr/libexec/gvfsd
+lightdm     1807  0.0  0.2 168852  7308 ?        Ssl  18:33   0:00 /usr/libexec/gvfsd-metadata
+ROOT        1846  0.0  0.2  14912  7308 ?        S    18:33   0:00 lightdm --session-child 13 20
+lightdm     1849  0.0  0.2 168688  7832 ?        Sl   18:33   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+ROOT        1897  0.0  0.0   8488  2908 tty3     Ss+  18:34   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+ROOT        1903  0.0  0.0   8488  2876 tty4     Ss+  18:36   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+ROOT        1904  0.0  0.0   8488  2868 tty5     Ss+  18:36   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+sainath+    2022  0.0  0.4  22924 13988 ?        Ss   18:36   0:00 /usr/lib/systemd/systemd --user
+sainath+    2028  0.0  0.1  22936  4116 ?        S    18:36   0:00 (sd-pam)
+sainath+    2049  0.0  0.1   8588  5108 ?        Ss   18:36   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sainath+    2050  0.0  0.3 101572 11104 ?        Ssl  18:36   0:00 /usr/bin/pipewire
+sainath+    2051  0.0  0.1   8856  5884 tty1     Ss+  18:36   0:00 -bash
+sainath+    2055  0.0  0.1   7560  4080 ?        Ss   18:36   0:00 /usr/bin/mpris-proxy
+sainath+    2056  0.0  1.2 634996 38824 ?        Ssl  18:36   0:00 /usr/bin/wireplumber
+sainath+    2059  0.0  0.1  84812  5840 ?        Ssl  18:36   0:00 /usr/bin/pipewire -c filter-chain.conf
+sainath+    2060  0.0  0.3 105204 11092 ?        Ssl  18:36   0:00 /usr/bin/pipewire-pulse
+ROOT        2146  0.0  0.3  18468 12200 ?        Ss   18:37   0:00 sshd-session: sainath-desai [priv]
+sainath+    2192  0.1  0.2  18628  7708 ?        S    18:37   0:00 sshd-session: sainath-desai@pts/0
+sainath+    2193  0.0  0.1   8844  5880 pts/0    Ss   18:37   0:00 -bash
+ROOT        2298  0.0  0.0      0     0 ?        I    18:38   0:00 [kworker/0:0-cgroup_free]
+ROOT        2315  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/1:1-events]
+ROOT        2317  0.0  0.4  29472 13192 ?        Ss   18:47   0:00 /usr/sbin/cupsd -l
+lp          2318  0.0  0.2  15436  7408 ?        S    18:47   0:00 /usr/lib/cups/notifier/dbus dbus://
+cups-br+    2319  0.0  0.7 207556 22992 ?        Ssl  18:47   0:00 /usr/sbin/cups-browsed
+ROOT        2326  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/u14:0-events_unbound]
+ROOT        2331  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/2:2-events]
+ROOT        2332  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/u13:0-events_power_efficient]
+sainath+    2458  100  0.1   9764  4700 pts/0    R+   18:52   0:00 ps aux
+170 processes are running
